@@ -656,7 +656,6 @@ ul.social-slide li i.mac {
   font-size: 14px;
   color: #BDBDBD;
   margin: 0px 0px 4em;
-  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 600;
 }
@@ -781,14 +780,18 @@ ul.social-slide li i.mac {
 
 .skills {
   width: 85%;
-  margin: 7px 0;
-  height: 12px;
+  margin: 24px 0;
+  height: 28px;
   background: #999;
+}
+.what-we-do .personaljj{
+  color: #313431;
+  line-height: 1.5em;
 }
 
 .bar p {
   color: #999999;
-  font-size: 14px;
+  font-size: 18px;
   margin: 0px;
 }
 
@@ -845,8 +848,8 @@ ul.social-slide li i.mac {
   margin: 0px 0px 1em;
   font-size: 22px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-style: italic;
+  /*font-family: 'Lato', sans-serif;
+  font-style: italic;*/
 }
 
 .great-team label {
@@ -1275,12 +1278,13 @@ ul#filters {
   display: block;
   padding: 5px 15px;
   text-decoration: none;
-  background: #F1F1F1;
-  color: #7A7A7A;
+  background: #FFc100;
+  color: #fff;
   cursor: pointer;
   font-size: 15px;
   font-weight: 500;
-  border: solid 1px #aaa;
+  border: none;
+  /*border: solid 1px #FFC100;*/
   border-radius: 3px;
 }
 
@@ -1297,7 +1301,7 @@ ul#filters {
 }
 
 #filters li span.filter:hover {
-  background: #F1F1F1;
+  background: #FFCB31;
   border-radius: 3px;
   transition: 0.5s;
   -webkit-transition: 0.5s;

@@ -1,703 +1,433 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<title>个人站</title>
-		<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-		<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'> -->
-		<!-- js -->
-		<script src="js/jquery.min.js"></script>
-		<!-- //js -->
-		<!-- for-mobile-apps -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="Costamar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-				function hideURLbar(){ window.scrollTo(0,1); } </script>
-		<!-- //for-mobile-apps -->
-		<!-- start-smoth-scrolling -->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-		<!-- start-smoth-scrolling -->
+<title>个人站</title>
+<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'> -->
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<!-- //js -->
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Costamar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript">
+    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+    function hideURLbar(){ window.scrollTo(0,1); }
+</script>
+<!-- //for-mobile-apps -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+$(".scroll").click(function(event){
+event.preventDefault();
+$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+});
+});
+</script>
+<!-- start-smoth-scrolling -->
 
 </head>
 
 <body>
 <!-- header -->
-	<div class="header-bg">
-	<div class="container">
-		<div class="head-logo">
-			<a href="#"><img src="images/logo.png" alt=" "></a>
-		</div>
-		<div class="top-nav">
-				<span class="menu"><img src="images/menu.png" alt="" /></span>
-					<ul class="nav1">
-						<li><a class="scroll" href="#home">首页</a></li>
-						<li><a class="scroll" href="#about">关于我</a></li>
-						<li><a class="scroll" href="#products">技能掌握</a></li>
-						<li><a class="scroll" href="#testimonials">工作经历</a></li>
-						<li><a class="scroll" href="#pricing">作品展示</a></li>
-						<li><a class="scroll" href="#contact">联系我</a></li>
-					</ul>
-					<script>
-							   $( "span.menu" ).click(function() {
-								 $( "ul.nav1" ).slideToggle( 300, function() {
-								 // Animation complete.
-								  });
-								 });
+<div class="header-bg">
+<div class="container">
+<div class="head-logo">
+<a href="#"><img src="images/logo.png" alt=" "></a>
+</div>
+<div class="top-nav">
+<span class="menu"><img src="images/menu.png" alt="" /></span>
+<ul class="nav1">
+<li><a class="scroll" href="#home">首页</a></li>
+<li><a class="scroll" href="#about">关于我</a></li>
+<li><a class="scroll" href="#products">技能掌握</a></li>
+<li><a class="scroll" href="#testimonials">工作经历</a></li>
+<li><a class="scroll" href="#pricing">作品展示</a></li>
+<li><a class="scroll" href="#contact">联系我</a></li>
+</ul>
+<script>
+$( "span.menu" ).click(function() {
+$( "ul.nav1" ).slideToggle( 300, function() {
+// Animation complete.
+});
+});
 
-					</script>
+</script>
 
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-	</div>
+</div>
+<div class="clearfix"> </div>
+</div>
+</div>
 <!-- //header -->
 <!-- banner -->
-	<div id="home" class="banner">
-	<div class="container">
-		<div class="banner-info">
-			<h1>欢迎来到我的个人站</h1>
-			<p>我是郭雪辉</p>
-			<a href="#">一名前端工程师</a>
-		</div>
-	</div>
-	</div>
+<div id="home" class="banner">
+<div class="container">
+<div class="banner-info">
+<h1>欢迎来到我的个人站</h1>
+<p>我是郭雪辉</p>
+<a href="#">一名前端工程师</a>
+</div>
+</div>
+</div>
 <!-- //banner -->
 <!-- banner-bottom -->
-	<div class="banner-bottom">
-	<div class="container">
-		<h3>ersonal web</h3>
-		<p><label>ethanol</label> is a clean and simple website
-		designed layout for multi-purpose <span>options, you can use this free psd for your works.</span></p>
-	</div>
-	</div>
+<!-- <div class="banner-bottom">
+<div class="container">
+<h3>ersonal web</h3>
+<p>一个愉悦的空间，一种尊贵的生活，一方独享的天地，都在这里寻求最合适的表达</p>
+</div>
+</div> -->
 <!-- //banner-bottom -->
 <!-- what-we-do -->
-	<div id="about" class="what-we-do">
-	<div class="container">
-			<h3>关于<span>我</span></h3>
-			<p>让别人了解你，也让自己更加了解自己</p>
-			<label> </label>
-		<div class="what-we-do-articles">
-		<!-- <div class="brand-identity">
-			<div class="col-md-6 brand-identity-left">
-				<div class="brand-identity-left-text">
-					<h2>Brand Identity</h2>
-					<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra,
-					vel varius eget sit mollis.</p>
-				</div>
-				<div class="brand-identity-left-fig">
-					<img src="images/1.png" alt=" " />
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-6 brand-identity-right">
-				<div class="brand-identity-left-fig1">
-					<img src="images/4.png" alt=" " />
-				</div>
-				<div class="brand-identity-left-text1">
-					<h2>UI/UX Design</h2>
-					<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra,
-					vel varius eget sit mollis.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="clearfix"> </div>
-
-		</div>
-		<div class="brand-identity">
-			<div class="col-md-6 brand-identity-left">
-				<div class="brand-identity-left-text">
-					<h2>Graphic Design</h2>
-					<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra,
-					vel varius eget sit mollis.</p>
-				</div>
-				<div class="brand-identity-left-fig">
-					<img src="images/2.png" alt=" " />
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-6 brand-identity-right">
-				<div class="brand-identity-left-fig1">
-					<img src="images/5.png" alt=" " />
-				</div>
-				<div class="brand-identity-left-text1">
-					<h2>Mobile Application</h2>
-					<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra,
-					vel varius eget sit mollis.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="clearfix"> </div>
-
-		</div>
-		<div class="brand-identity">
-			<div class="col-md-6 brand-identity-left">
-				<div class="brand-identity-left-text">
-					<h2>IIlustration</h2>
-					<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra,
-					vel varius eget sit mollis.</p>
-				</div>
-				<div class="brand-identity-left-fig">
-					<img src="images/3.png" alt=" " />
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-6 brand-identity-right">
-				<div class="brand-identity-left-fig1">
-					<img src="images/6.png" alt=" " />
-				</div>
-				<div class="brand-identity-left-text1">
-					<h2>Videography</h2>
-					<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra,
-					vel varius eget sit mollis.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="clearfix"> </div>
-
-		</div>
-		 -->
-		</div>
-	</div>
-	</div>
+<div id="about" class="what-we-do">
+<div class="container">
+<h3>关于<span>我</span></h3>
+<p>让别人了解你，也让自己更加了解自己</p>
+<label> </label>
+<div class="what-we-do-articles">
+	<p class="personaljj">我是一个涉世不深，经验尚浅的前端工程师，但是所谓初生牛犊不怕虎，正是这种态度，让我可以更加全身心的投入工作中，对我来说，前端不只是一份工作，更是一种生活，它让我从生活中感受到了乐趣和品质，让我拥有了迎接挑战的自信，我需要一个团队，去迎接挑战，我喜欢将后背托给队友的那种畅快淋漓的感觉</p>
+</div>
+</div>
+</div>
 <!-- //what-we-do -->
 <!-- want-to-know -->
-	<div id="products" class="want-to-know">
-	<div class="container">
-			<h3>专业<span>技能</span></h3>
-			<p>年轻人最重要的，是能把自己的技能，推到自己能够达到的巅峰</p>
-			<label> </label>
-	</div>
-	</div>
+<div id="products" class="want-to-know">
+<div class="container">
+<h3>专业<span>技能</span></h3>
+<p>年轻人最重要的，是能把自己的技能，推到自己能够达到的巅峰</p>
+<label> </label>
+</div>
+</div>
 <!-- //want-to-know -->
 <!-- professional -->
-	<div class="professional">
-	<div class="container">
-		<div class="professional-left">
-			<img src="images/w.jpg" alt=" " />
-			<ul>
-				<li><a href="#" class="facebook"> </a></li>
-				<li><a href="#" class="twitter"> </a></li>
-				<li><a href="#" class="in"> </a></li>
-			</ul>
+<div class="professional">
+<div class="container">
+<div class="professional-left">
+<img src="images/desk.jpg" alt=" " />
 
-		</div>
-		<div class="professional-right">
-			<h4>Professional Profile</h4>
-			<p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec,
-			tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus,
-			tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam.
-			Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+</div>
+<div class="professional-right">
+<h4>技能展示</h4>
 
-				<div class="bar">
-					<p>UX/UX</p>
-				</div>
-			<div class="skills">
-			     <div class="skill1" style="width:100%"> </div>
-	        </div>
-				<div class="bar">
-					<p>HTML / CSS3 / SASS</p>
-				</div>
-			<div class="skills">
-			     <div class="skill2" style="width:90%"> </div>
-	        </div>
-				<div class="bar">
-					<p>Javascript</p>
-				</div>
-			<div class="skills">
-			     <div class="skill3" style="width:75%"> </div>
-	        </div>
-				<div class="bar">
-					<p>Wordpress</p>
-				</div>
-			<div class="skills">
-			     <div class="skill4" style="width:60%"> </div>
-	        </div>
-				<div class="bar">
-					<p>Php</p>
-				</div>
-			<div class="skills">
-			     <div class="skill5" style="width:60%"> </div>
-	        </div>
-		</div>
-		<div class="clearfix"> </div>
+<div class="bar">
+<p>html5 / css3 / SASS</p>
+</div>
+<div class="skills">
+<div class="skill1" style="width:90%"> </div>
+</div>
+<div class="bar">
+<p>Javascript</p>
+</div>
+<div class="skills">
+<div class="skill2" style="width:90%"> </div>
+</div>
+<div class="bar">
+<p>jQuery</p>
+</div>
+<div class="skills">
+<div class="skill3" style="width:75%"> </div>
+</div>
+<div class="bar">
+<p>angularJs</p>
+</div>
+<div class="skills">
+<div class="skill4" style="width:70%"> </div>
+</div>
+</div>
+<div class="clearfix"> </div>
 
-	</div>
-	</div>
+</div>
+</div>
 <!-- //professional -->
 <!-- great-team -->
-	<div id="testimonials" class="great-team">
-	<div class="container">
-		<h3>WANT TO KNOW US <span>BETTER</span></h3>
-		<p>这是对自己的激励与肯定</p>
-		<label> </label>
-<!-- banner-Slider-starts-Here -->
-				<script src="js/responsiveslides.min.js"></script>
-				 <script>
-				    // You can also use "$(window).load(function() {"
-				    $(function () {
-				      // Slideshow 4
-				      $("#slider3").responsiveSlides({
-				        auto: false,
-				        pager: true,
-				        nav: false,
-				        speed: 500,
-				        namespace: "callbacks",
-				        before: function () {
-				          $('.events').append("<li>before event fired.</li>");
-				        },
-				        after: function () {
-				          $('.events').append("<li>after event fired.</li>");
-				        }
-				      });
+<div id="testimonials" class="great-team">
+<div class="container">
+<h3>工作<span>经历</span></h3>
+<p>这是对自己的激励与肯定</p>
+<label> </label>
+<script>
+$(function () {
+$("#slider3").responsiveSlides({
+auto: false,
+pager: true,
+nav: false,
+speed: 500,
+namespace: "callbacks",
+before: function () {
+$('.events').append("<li>before event fired.</li>");
+},
+after: function () {
+$('.events').append("<li>after event fired.</li>");
+}
+});
 
-				    });
-				  </script>
-			<!--//End-slider-script -->
-			<div  id="top" class="callbacks_container">
-				<ul class="rslides" id="slider3">
-					<li>
-						<div class="col-md-4 maria">
-							<img src="images/women1.jpg" alt=" " />
-							<div class="cap">
-								<p>Imperdiet nulla sem fringilla,
-									purus enim <span>amet, nascetur faucibus, adipiscing</span>
-									neque ut bibendum, at felis nec in..</p>
-							</div>
+});
+</script>
+</div>
+<div class="our-work">
+<div class="container">
+<h3>作品<span>展示</span></h3>
+<p>这是对自己的激励与肯定</p>
+<label> </label>
+</div>
+</div>
+<div class="gallery">
+<ul id="filters" class="clearfix">
+<li><span class="filter active" data-filter="app card icon logo web">全部</span></li>
+<li><span class="filter" data-filter="app">游戏</span></li>
+<li><span class="filter" data-filter="card">移动端应用</span></li>
+<li><span class="filter" data-filter="icon">网站首页</span></li>
+<li><span class="filter" data-filter="web">整站</span></li>
 
-							<h2>Maria Shara</h2>
-							<p>FOUNDER-DEVELOPER</p>
-							<ul>
-								<li><a href="#" class="facebook1"> </a></li>
-								<li><a href="#" class="twitter1"> </a></li>
-								<li><a href="#" class="in1"> </a></li>
-							</ul>
-						</div>
-		<div class="col-md-4 maria">
-			<img src="images/women-2.jpg" alt=" " />
-			<div class="cap">
-					<p>Imperdiet nulla sem fringilla,
-					purus enim <span>amet, nascetur faucibus, adipiscing</span>
-					neque ut bibendum, at felis nec in..</p>
-			</div>
-			<h2>Joanna Doe</h2>
-			<p>FOUNDER-DEVELOPER</p>
-			<ul>
-				<li><a href="#" class="facebook1"> </a></li>
-				<li><a href="#" class="twitter1"> </a></li>
-				<li><a href="#" class="in1"> </a></li>
-			</ul>
-		</div>
-		<div class="col-md-4 maria">
-			<img src="images/women1.jpg" alt=" " />
-			<div class="cap">
-					<p>Imperdiet nulla sem fringilla,
-					purus enim <span>amet, nascetur faucibus, adipiscing</span>
-					neque ut bibendum, at felis nec in..</p>
-			</div>
-			<h2>Maria Shara</h2>
-			<p>FOUNDER-DEVELOPER</p>
-			<ul>
-				<li><a href="#" class="facebook1"> </a></li>
-				<li><a href="#" class="twitter1"> </a></li>
-				<li><a href="#" class="in1"> </a></li>
-			</ul>
-		</div>
-		<div class="clearfix"> </div>
-		</li>
-		<li>
-			<div class="col-md-4 maria">
-			<img src="images/women-2.jpg" alt=" " />
-			<div class="cap">
-					<p>Imperdiet nulla sem fringilla,
-					purus enim <span>amet, nascetur faucibus, adipiscing</span>
-					neque ut bibendum, at felis nec in..</p>
-			</div>
-
-			<h2>Maria Shara</h2>
-			<p>FOUNDER-DEVELOPER</p>
-			<ul>
-				<li><a href="#" class="facebook1"> </a></li>
-				<li><a href="#" class="twitter1"> </a></li>
-				<li><a href="#" class="in1"> </a></li>
-			</ul>
-		</div>
-		<div class="col-md-4 maria">
-			<img src="images/women1.jpg" alt=" " />
-			<div class="cap">
-					<p>Imperdiet nulla sem fringilla,
-					purus enim <span>amet, nascetur faucibus, adipiscing</span>
-					neque ut bibendum, at felis nec in..</p>
-			</div>
-			<h2>Joanna Doe</h2>
-			<p>FOUNDER-DEVELOPER</p>
-			<ul>
-				<li><a href="#" class="facebook1"> </a></li>
-				<li><a href="#" class="twitter1"> </a></li>
-				<li><a href="#" class="in1"> </a></li>
-			</ul>
-		</div>
-		<div class="col-md-4 maria">
-			<img src="images/women1.jpg" alt=" " />
-			<div class="cap">
-					<p>Imperdiet nulla sem fringilla,
-					purus enim <span>amet, nascetur faucibus, adipiscing</span>
-					neque ut bibendum, at felis nec in..</p>
-			</div>
-			<h2>Maria Shara</h2>
-			<p>FOUNDER-DEVELOPER</p>
-			<ul>
-				<li><a href="#" class="facebook1"> </a></li>
-				<li><a href="#" class="twitter1"> </a></li>
-				<li><a href="#" class="in1"> </a></li>
-			</ul>
-		</div>
-		<div class="clearfix"> </div>
-		</li>
-		<li>
-		<div class="col-md-4 maria">
-			<img src="images/women1.jpg" class="img-responsive" alt=" " />
-			<div class="cap">
-					<p>Imperdiet nulla sem fringilla,
-					purus enim <span>amet, nascetur faucibus, adipiscing</span>
-					neque ut bibendum, at felis nec in..</p>
-			</div>
-
-			<h2>Maria Shara</h2>
-			<p>FOUNDER-DEVELOPER</p>
-			<ul>
-				<li><a href="#" class="facebook1"> </a></li>
-				<li><a href="#" class="twitter1"> </a></li>
-				<li><a href="#" class="in1"> </a></li>
-			</ul>
-		</div>
-		<div class="col-md-4 maria">
-			<img src="images/women-2.jpg" class="img-responsive" alt=" " />
-			<div class="cap">
-					<p>Imperdiet nulla sem fringilla,
-					purus enim <span>amet, nascetur faucibus, adipiscing</span>
-					neque ut bibendum, at felis nec in..</p>
-			</div>
-			<h2>Joanna Doe</h2>
-			<p>FOUNDER-DEVELOPER</p>
-			<ul>
-				<li><a href="#" class="facebook1"> </a></li>
-				<li><a href="#" class="twitter1"> </a></li>
-				<li><a href="#" class="in1"> </a></li>
-			</ul>
-		</div>
-		<div class="col-md-4 maria">
-			<img src="images/women1.jpg" class="img-responsive" alt=" " />
-			<div class="cap">
-					<p>Imperdiet nulla sem fringilla,
-					purus enim <span>amet, nascetur faucibus, adipiscing</span>
-					neque ut bibendum, at felis nec in..</p>
-			</div>
-			<h2>Maria Shara</h2>
-			<p>FOUNDER-DEVELOPER</p>
-			<ul>
-				<li><a href="#" class="facebook1"> </a></li>
-				<li><a href="#" class="twitter1"> </a></li>
-				<li><a href="#" class="in1"> </a></li>
-			</ul>
-		</div>
-		<div class="clearfix"> </div>
-		</li>
-		</ul>
-	  </div>
+</ul>
+<div id="portfoliolist">
+<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+<div class="portfolio-wrapper">
+	<a href="/weixin" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+		<img src="images/weixin.jpg" class="img-responsive" />
+		<div class="b-wrapper">
+			<h5 class="b-animate b-from-left    b-delay03 ">微信</h5>
+			<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+		</div></a>
 	</div>
+</div>
+<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+	<div class="portfolio-wrapper">
+		<a href="/jingdong" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+			<img src="images/jingdong.png" class="img-responsive" /><div class="b-wrapper">
+				<h5 class="b-animate b-from-left    b-delay03 ">京东首页</h5>
+				<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+			</div></a>
+		</div>
 	</div>
-<!-- //internet-comm -->
-<!-- our-work -->
-	<div class="our-work">
-	<div class="container">
-			<h3>作品<span>展示</span></h3>
-			<p>这是对自己的激励与肯定</p>
-			<label> </label>
-	</div>
-	</div>
-	<div class="gallery">
-		<ul id="filters" class="clearfix">
-			<li><span class="filter active" data-filter="app card icon logo web">全部</span></li>
-			<li><span class="filter" data-filter="app">Website</span></li>
-			<li><span class="filter" data-filter="card">移动端应用</span></li>
-			<li><span class="filter" data-filter="icon">Identity</span></li>
-			<li><span class="filter" data-filter="web">整站</span></li>
 
-		</ul>
-					<div id="portfoliolist">
-					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="/weixin" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						      <img src="images/weixin.jpg" class="img-responsive" />
-							 <div class="b-wrapper">
-							 <h5 class="b-animate b-from-left    b-delay03 ">微信</h5>
+	<div class="portfolio web mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">
+			<a href="#small-dialog2" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+				<img src="images/amaiti.png" class="img-responsive" /><div class="b-wrapper">
+					<h5 class="b-animate b-from-left    b-delay03 ">阿买提整站</h5>
+					<p class="b-animate b-from-left     b-delay03 ">点击进入</p>
+				</div></a>
+			</div>
+		</div>
+		<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="#small-dialog3" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+					<img src="images/yidong.png" class="img-responsive" /><div class="b-wrapper">
+						<h5 class="b-animate b-from-left    b-delay03 ">移动首页</h5>
+						<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+					</div></a>
+				</div>
+
+			</div>
+			<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app web" style="display: inline-block; opacity: 1;">
+				<div class="portfolio-wrapper">
+					<a href="/saolei" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						<img src="images/saolei.png" class="img-responsive" /><div class="b-wrapper">
+							<h5 class="b-animate b-from-left    b-delay03 ">扫雷游戏</h5>
+							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+
+						</div></a>
+					</div>
+				</div>
+				<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
+					<div class="portfolio-wrapper">
+						<a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+							<img src="images/wuziqi.png" class="img-responsive" /><div class="b-wrapper">
+								<h5 class="b-animate b-from-left    b-delay03 ">五子棋游戏</h5>
 								<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						  	</div></a>
-		                </div>
-					</div>
-					<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="#small-dialog4" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						    <img src="images/jingdong.png" class="img-responsive" /><div class="b-wrapper">
-							 <ul class="b-animate b-from-left    b-delay03 ">
-									<li><span class="link"> </span></li>
-									<!-- <li><span class="arrow"> </span> </li> -->
-								</ul>
-							 <h5 class="b-animate b-from-left    b-delay03 ">京东首页</h5>
-							 <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						  	</div></a>
-		                </div>
-					</div>
-
-					<div class="portfolio web mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="#small-dialog2" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						      <img src="images/yintai.jpg" class="img-responsive" /><div class="b-wrapper">
-							 <h5 class="b-animate b-from-left    b-delay03 ">银泰首页</h5>
-							 <p class="b-animate b-from-left     b-delay03 ">点击进入</p>
-						  	</div></a>
-		                </div>
-					</div>
-					<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="#small-dialog3" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/yidong.png" class="img-responsive" /><div class="b-wrapper">
-							 <h5 class="b-animate b-from-left    b-delay03 ">移动首页</h5>
-							 <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						  	</div></a>
-		                </div>
-
-					</div>
-					<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app web" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="/jingdong" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						    <img src="images/jingdong.png" class="img-responsive" /><div class="b-wrapper">
-							 <h5 class="b-animate b-from-left    b-delay03 ">京东首页</h5>
-							 <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-
-						  	</div></a>
-		                </div>
-					</div>
-					<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/pic-6.jpg" class="img-responsive" /><div class="b-wrapper">
-							 <ul class="b-animate b-from-left    b-delay03 ">
-									<li><span class="link"> </span></li>
-									<!-- <li><span class="arrow"> </span> </li> -->
-								</ul>
-							 <h5 class="b-animate b-from-left    b-delay03 ">FLAT MOCKUP</h5>
-							 <p class="b-animate b-from-left    b-delay03 ">Identity</p>
-						  	</div></a>
-		                </div>
+							</div></a>
+						</div>
 					</div>
 					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
 						<div class="portfolio-wrapper">
 							<a href="#small-dialog6" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/suning.jpg" class="img-responsive" />
-							 <div class="b-wrapper">
-							 <h5 class="b-animate b-from-left    b-delay03 ">苏宁易购移动页面</h5>
-								<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						  	</div></a>
-		                </div>
-					</div>
-					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="#small-dialog7" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/zhihu.png" class="img-responsive" /><div class="b-wrapper">
-							 <h5 class="b-animate b-from-left    b-delay03 ">知乎移动端APP</h5>
-							 <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-
-						  	</div></a>
-		                </div>
-					</div>
-					<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="#small-dialog8" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/yintai.jpg" class="img-responsive" /><div class="b-wrapper">
-							 <h5 class="b-animate b-from-left    b-delay03 ">银泰首页</h5>
-							 <p class="b-animate b-from-left b-delay03" id="para">点击进入</p>
-						  	</div></a>
-		                </div>
+								<img src="images/suning.jpg" class="img-responsive" />
+								<div class="b-wrapper">
+									<h5 class="b-animate b-from-left    b-delay03 ">苏宁易购移动页面</h5>
+									<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+								</div></a>
+							</div>
 						</div>
-						<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="#small-dialog9" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						      <img src="images/baidu.jpg" class="img-responsive" /><div class="b-wrapper">
-							 <h5 class="b-animate b-from-left    b-delay03 ">百度未来商店首页</h5>
-							 <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						  	</div></a>
-		                </div>
-						</div>
-						<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="#small-dialog10" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						      <img src="images/pic-3.jpg"  class="img-responsive" /><div class="b-wrapper">
-							 <ul class="b-animate b-from-left    b-delay03 ">
-									<li><span class="link"> </span></li>
-									<!-- <li><span class="arrow"> </span> </li> -->
-								</ul>
-							 <h5 class="b-animate b-from-left    b-delay03 ">FLAT MOCKUP</h5>
-							 <p class="b-animate b-from-left    b-delay03 ">Identity</p>
-						  	</div></a>
-		                </div>
-						</div>
-						<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">
-							<a href="#small-dialog11" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						      <img src="images/pic-4.jpg" class="img-responsive" /><div class="b-wrapper">
-							 <ul class="b-animate b-from-left    b-delay03 ">
-									<li><span class="link"> </span></li>
-									<!-- <li><span class="arrow"> </span> </li> -->
-								</ul>
-							 <h5 class="b-animate b-from-left    b-delay03 ">FLAT MOCKUP</h5>
-							 <p class="b-animate b-from-left    b-delay03 ">Identity</p>
-						  	</div></a>
-		                </div>
-						</div>
-<div class="clearfix"></div>
-				</div>
-		  <div class="clearfix"></div>
+						<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">
+								<a href="#small-dialog7" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+									<img src="images/zhihu.png" class="img-responsive" /><div class="b-wrapper">
+										<h5 class="b-animate b-from-left    b-delay03 ">知乎移动端APP</h5>
+										<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
 
-		  <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-		  <!-- Script for gallery Here -->
-				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-					<script type="text/javascript">
-					$(function () {
+									</div></a>
+								</div>
+							</div>
+							<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+								<div class="portfolio-wrapper">
+									<a href="#small-dialog8" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+										<img src="images/yintai.jpg" class="img-responsive" /><div class="b-wrapper">
+											<h5 class="b-animate b-from-left    b-delay03 ">银泰首页</h5>
+											<p class="b-animate b-from-left b-delay03" id="para">点击进入</p>
+										</div></a>
+									</div>
+								</div>
+								<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+									<div class="portfolio-wrapper">
+										<a href="#small-dialog9" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+											<img src="images/baidu.jpg" class="img-responsive" /><div class="b-wrapper">
+												<h5 class="b-animate b-from-left    b-delay03 ">百度未来商店首页</h5>
+												<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+											</div></a>
+										</div>
+									</div>
+									<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
+										<div class="portfolio-wrapper">
+											<a href="#small-dialog10" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+												<img src="images/wangyi.png"  class="img-responsive" /><div class="b-wrapper">
+													<h5 class="b-animate b-from-left    b-delay03 ">网易邮箱6.0</h5>
+													<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+												</div></a>
+											</div>
+										</div>
+										<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+											<div class="portfolio-wrapper">
+												<a href="#small-dialog11" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+													<img src="images/apple.png" class="img-responsive" /><div class="b-wrapper">
+														<!-- <ul class="b-animate b-from-left    b-delay03 ">
+															<li><span class="link"> </span></li>
+														</ul> -->
+														<h5 class="b-animate b-from-left    b-delay03 ">苹果响应式首页</h5>
+														<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+													</div></a>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="clearfix"></div>
 
-						var filterList = {
+										<script type="text/javascript">
+										jQuery(document).ready(function($) {
+											$(".scroll").click(function(event){
+												event.preventDefault();
+												$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+											});
+										});
+										</script>
 
-							init: function () {
+										<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+										<script type="text/javascript">
+										$(function () {
 
-								// MixItUp plugin
-								// http://mixitup.io
-								$('#portfoliolist').mixitup({
-									targetSelector: '.portfolio',
-									filterSelector: '.filter',
-									effects: ['fade'],
-									easing: 'snap',
-									// call the hover effect
-									onMixEnd: filterList.hoverEffect()
+											var filterList = {
+
+												init: function () {
+
+													$('#portfoliolist').mixitup({
+														targetSelector: '.portfolio',
+														filterSelector: '.filter',
+														effects: ['fade'],
+														easing: 'snap',
+
+														onMixEnd: filterList.hoverEffect()
+													});
+
+												},
+
+												hoverEffect: function () {
+
+													$('#portfoliolist .portfolio').hover(
+														function () {
+															$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+															$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');
+														},
+														function () {
+															$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+															$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');
+														}
+													);
+
+												}
+
+											};
+
+											// Run the show!
+											filterList.init();
+
+										});
+										</script>
+										<!-- Gallery Script Ends -->
+
+
+										<div id="contact" class="contact-us">
+											<div class="container">
+												<h3>联系<span>我</span></h3>
+												<p>相信我会给您一个惊喜</p>
+												<label> </label>
+											</div>
+										</div>
+										<div class="map-bottom">
+											<div class="container">
+												<div class="dot-msg-phone">
+													<div class="dot">
+														<label> </label>
+														<h5>guo18435133760</h5>
+													</div>
+													<div class="msg">
+														<label> </label>
+														<h5>991158744@qq.com</h5>
+													</div>
+													<div class="phone">
+														<label> </label>
+														<h5>18435133760</h5>
+													</div>
+													<div class="clearfix"> </div>
+												</div>
+												<!-- <div class="contact">
+												<form>
+												<input type="text" required=" " placeholder="Your Name">
+												<input type="text" class="in" required=" " placeholder="Your email">
+												<input type="text" required=" " placeholder="Subject">
+												<textarea>Your Message</textarea>
+												<input type="submit" value="Send">
+											</form>
+										</div> -->
+									</div>
+								</div>
+								<!-- //contact-us -->
+								<!-- footer -->
+								<div class="footer">
+									<div class="container">
+										<div class="footer-left">
+											<p>欢迎您联系我</p>
+										</div>
+										<div class="footer-right">
+											<ul>
+												<li><a href="javascript:;" class="facebook"> </a></li>
+												<li><a href="javascript:;" class="twitter"> </a></li>
+												<li><a href="javascript:;" class="in"> </a></li>
+												<li><a href="javascript:;" class="p"> </a></li>
+												<li><a href="javascript:;" class="google"> </a></li>
+												<li><a href="javascript:;" class="drible"> </a></li>
+												<li><a href="javascript:;" class="in1"> </a></li>
+											</ul>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</div>
+								<!-- //footer -->
+								<!-- here stars scrolling icon -->
+								<script type="text/javascript">
+								$(document).ready(function() {
+									$().UItoTop({ easingType: 'easeOutQuart' });
+
 								});
+								</script>
+								<!-- //here ends scrolling icon -->
 
-							},
-
-							hoverEffect: function () {
-
-								// Simple parallax effect
-								$('#portfoliolist .portfolio').hover(
-									function () {
-										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');
-									},
-									function () {
-										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');
-									}
-								);
-
-							}
-
-						};
-
-						// Run the show!
-						filterList.init();
-
-					});
-					</script>
-			<!-- Gallery Script Ends -->
-
-
-
-<!-- //pricing-table -->
-
-<!-- contact-us -->
-	<div id="contact" class="contact-us">
-	<div class="container">
-			<h3>联系<span>我</span></h3>
-			<p>相信我会给您一个惊喜</p>
-			<label> </label>
-	</div>
-	</div>
-	<div class="map-bottom">
-	<div class="container">
-		<div class="dot-msg-phone">
-			<div class="dot">
-				<label> </label>
-				<h5>guo18435133760</h5>
-			</div>
-			<div class="msg">
-				<label> </label>
-				<h5>991158744@qq.com</h5>
-			</div>
-			<div class="phone">
-				<label> </label>
-				<h5>18435133760</h5>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<!-- <div class="contact">
-			<form>
-				<input type="text" required=" " placeholder="Your Name">
-				<input type="text" class="in" required=" " placeholder="Your email">
-				<input type="text" required=" " placeholder="Subject">
-				<textarea>Your Message</textarea>
-				<input type="submit" value="Send">
-			</form>
-		</div> -->
-	</div>
-	</div>
-<!-- //contact-us -->
-<!-- footer -->
-	<div class="footer">
-	<div class="container">
-		<div class="footer-left">
-			<p>欢迎您联系我</p>
-		</div>
-		<div class="footer-right">
-			<ul>
-				<li><a href="javascript:;" class="facebook"> </a></li>
-				<li><a href="javascript:;" class="twitter"> </a></li>
-				<li><a href="javascript:;" class="in"> </a></li>
-				<li><a href="javascript:;" class="p"> </a></li>
-				<li><a href="javascript:;" class="google"> </a></li>
-				<li><a href="javascript:;" class="drible"> </a></li>
-				<li><a href="javascript:;" class="in1"> </a></li>
-			</ul>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-	</div>
-<!-- //footer -->
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-									$(document).ready(function() {
-										$().UItoTop({ easingType: 'easeOutQuart' });
-
-									});
-	</script>
-<!-- //here ends scrolling icon -->
-
-</body>
-</html>
+							</body>
+							</html>
