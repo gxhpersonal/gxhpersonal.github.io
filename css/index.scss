@@ -283,7 +283,7 @@ ul.social-slide li i.mac{
 		}
 .top-nav ul li a{
 		text-decoration:none;
-		color:#636563;
+		color:#eee;
 		font-size:15px;
 		font-weight: 600;
 		transition: .5s all;
@@ -488,6 +488,22 @@ ul.social-slide li i.mac{
       li{
         margin: 3em 0;
       }
+    }
+  }
+  @media screen and (max-width:768px){
+    .jianjie{
+      margin: 1em 0 1em;
+      width: 100%;
+      ul{
+        margin: 0;
+        li{
+          margin: 1.5em 0;
+          padding: 0 1em;
+        }
+      }
+    }
+    .xiaoping{
+      color: #FFC100;
     }
   }
 .want-to-know label{
@@ -1979,7 +1995,7 @@ h5.b-animate.b-from-left.b-delay03 {
 		position: absolute;
 		padding: 0;
 		margin: 0;
-		top: 14%;
+		top: 11%;
 		left: 0%;
 		width: 100%;
 		z-index: 999;
@@ -2058,8 +2074,13 @@ h5.b-animate.b-from-left.b-delay03 {
 		margin-left: 1em;
 		}
 	.what-we-do-articles {
-    height: 426px;
-		margin: 4em 0px;
+    width: 100%;
+    .personaljj{
+      width: 100%;
+      padding: 0 1em 0 1em;
+      line-height: 1.7em;
+      margin: 0;
+    }
 		}
 		.want-to-know {
 		margin-bottom: 3em;
@@ -2671,7 +2692,7 @@ h5.b-animate.b-from-left.b-delay03 {
 		font-size: 15px;
 		}
 	.what-we-do-articles {
-		margin: 1em 0px;
+		margin: 1em 0px 1.5em;
 		}
 	.want-to-know h3{
 		font-size: 22px;
@@ -2687,7 +2708,10 @@ h5.b-animate.b-from-left.b-delay03 {
 			margin: 0;
 		}
 	.top-nav ul.nav1 li {
-		padding: 19px 0 15px;
+		padding: 31px 0 15px;
+    &:hover a{
+      color: #FFCB31;
+    }
 		}
 	.professional-left ul {
 		top: 74%;
