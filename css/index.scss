@@ -16,9 +16,11 @@ $imgp:"../images/";
   background-repeat: no-repeat;
   background-size: $r $v;
 }
-
-
-
+ul,li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
 
 html,body{
@@ -303,12 +305,14 @@ ul.social-slide li i.mac{
 		width:100%;
 		min-height:791px;
 		}
+
 .banner-info{
 		text-align:center;
 		width:100%;
 		margin-top: 20em;
 		}
 .banner-info h1{
+  font-size: 40px;
 		color:#FFCC33;
 		font-weight:700;
 		margin:0px;
@@ -370,8 +374,9 @@ ul.social-slide li i.mac{
 .what-we-do p{
 		color:#999999;
 		margin:0px 0px 1em;
-		font-size:22px;
+		font-size:18px;
 		text-align:center;
+    line-height: 1.9em;
 		}
 .what-we-do label{
 		background:url(../images/what.png) no-repeat 100px 0px;
@@ -380,7 +385,9 @@ ul.social-slide li i.mac{
 		height:51px;
 		}
 .what-we-do-articles{
-		margin:10em 0px 12em;
+  width: 50%;
+  float: right;
+		margin:9em 0px 7em;
 		}
 .brand-identity{
 		margin-bottom:1.5em;
@@ -458,9 +465,31 @@ ul.social-slide li i.mac{
 .want-to-know p{
 		color:#999999;
 		margin:0px 0px 1em;
-		font-size:22px;
+		font-size:18px;
+    font-weight: 300;
 		text-align:center;
 		}
+    .personaljj{
+      line-height: 1.9em;
+      color: #777;
+      width: 80%;
+      float: left;
+      margin-left: 3em;
+    }
+  .jianjie{
+    width: 50%;
+    float: left;
+    margin:7em 0 7em;
+    h4{
+      color: #777;
+    }
+    ul{
+      margin-left: 3em;
+      li{
+        margin: 3em 0;
+      }
+    }
+  }
 .want-to-know label{
 		background:url(../images/what.png) no-repeat 100px 0px;
 		display:block;
@@ -471,7 +500,7 @@ ul.social-slide li i.mac{
 /*-- professional --*/
 .professional{
 		background:#F3F3F3;
-		padding-bottom: 15em;
+		padding-bottom: 6em;
 		}
 .professional-left{
 		width:45%;
@@ -572,7 +601,7 @@ ul.social-slide li i.mac{
 		color:#BDBDBD;
 		margin:0px 0px 4em;
 		font-style:normal;
-		font-weight:600;
+		// font-weight:600;
 		}
 .professional-grids{
 		border-bottom:1px solid #555;
@@ -678,13 +707,13 @@ ul.social-slide li i.mac{
 		}
 .skills {
 	width: 85%;
-	margin: 7px 0;
-	height: 12px;
+	margin: 29px 0;
+	height: 20px;
 	background:#999;
 }
 .bar p{
 	color:#999999;
-	font-size:14px;
+	font-size:18px;
 	margin:0px;
 	}
 .skill1 {
@@ -730,10 +759,8 @@ ul.social-slide li i.mac{
 .great-team p{
 		color:#999999;
 		margin:0px 0px 1em;
-		font-size:22px;
+		font-size:21px;
 		text-align:center;
-		font-family: 'Lato', sans-serif;
-		font-style:italic;
 		}
 .great-team label{
 		background:url(../images/what.png) no-repeat 100px 0px;
@@ -982,7 +1009,7 @@ ul.social-slide li i.mac{
 /*-- //internet-comm --*/
 /*-- our-work --*/
 .our-work{
-		margin-top:10%;
+		margin-top:3%;
 		margin-bottom: 5%;
 		}
 .our-work h3{
@@ -999,7 +1026,7 @@ ul.social-slide li i.mac{
 .our-work p{
 		color:#999999;
 		margin:0px 0px 1em;
-		font-size:22px;
+		font-size:18px;
 		text-align:center;
 		}
 .our-work label{
@@ -1099,12 +1126,12 @@ ul#filters {
 	display: block;
 	padding: 5px 15px;
 	text-decoration: none;
-	background: #F1F1F1;
-	color: #7A7A7A;
+	background: #FFCB31;
+	color: #fff;
 	cursor: pointer;
 	font-size: 15px;
 	font-weight: 500;
-	border: solid 1px #aaa;
+	border: solid 1px #ffcb31;
 	border-radius: 3px;
 }
 	#filters li span {
@@ -1119,7 +1146,9 @@ ul#filters {
 	border: solid 1px #aaa;
 }
 	#filters li span.filter:hover {
-	background: #F1F1F1;
+	background: #FFCB31;
+  border: 1px solid #ffcb31;
+  color: #fff;
 	border-radius: 3px;
 	transition: 0.5s;
 	-webkit-transition: 0.5s;
@@ -1477,7 +1506,7 @@ ul.b-animate.b-from-left.b-delay03  li span.link
 
 /*-- contact-us --*/
 .contact-us{
-		margin-top:10%;
+		margin-top:3%;
 		margin-bottom: 5%;
 		}
 .contact-us h3{
@@ -1494,7 +1523,7 @@ ul.b-animate.b-from-left.b-delay03  li span.link
 .contact-us p{
 		color:#999999;
 		margin:0px 0px 1em;
-		font-size:22px;
+		font-size:18px;
 		text-align:center;
 		}
 .contact-us label{
@@ -2594,6 +2623,7 @@ h5.b-animate.b-from-left.b-delay03 {
 		background-size:507%;
 		}
 	.banner {
+    background-position: center center;
 		min-height: 350px;
 		}
 	.banner-info h1 {
