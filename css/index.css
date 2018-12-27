@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @keyframes totop {
   0% {
     transform: translateY(-3px);
@@ -263,7 +263,7 @@ ul.social-slide li i.mac {
 
 .callbacks_tabs li {
   display: inline-block;
-  margin: 0 .5em;
+  margin: 0 0.5em;
 }
 
 @media screen and (max-width: 600px) {
@@ -412,7 +412,7 @@ ul.social-slide li i.mac {
 /*-- what-we-do --*/
 .what-we-do h3 {
   color: #333333;
-  margin: 3em 0px .3em;
+  margin: 3em 0px 0.3em;
   text-align: center;
   font-size: 30px;
 }
@@ -520,7 +520,7 @@ ul.social-slide li i.mac {
 
 .want-to-know h3 {
   color: #333333;
-  margin: 3em 0px .3em;
+  margin: 3em 0px 0.3em;
   text-align: center;
   font-size: 30px;
 }
@@ -765,7 +765,7 @@ ul.social-slide li i.mac {
 .professional-grids-msg h3 {
   color: #000;
   text-align: center;
-  margin: .5em 0px;
+  margin: 0.5em 0px;
   font-weight: 700;
 }
 
@@ -789,7 +789,7 @@ ul.social-slide li i.mac {
 .professional-grids-msgtype h3 {
   color: #000;
   text-align: center;
-  margin: .5em 0px;
+  margin: 0.5em 0px;
   font-weight: 700;
 }
 
@@ -814,7 +814,7 @@ ul.social-slide li i.mac {
 .professional-grids-men h3 {
   color: #000;
   text-align: center;
-  margin: .5em 0px;
+  margin: 0.5em 0px;
   font-weight: 700;
 }
 
@@ -845,6 +845,7 @@ ul.social-slide li i.mac {
 }
 
 .skill1 {
+  width: 0;
   height: 100%;
   display: block;
   background-color: #FFCA26;
@@ -882,7 +883,7 @@ ul.social-slide li i.mac {
 
 .great-team h3 {
   color: #333333;
-  margin: 3em 0px .3em;
+  margin: 3em 0px 0.3em;
   text-align: center;
   font-size: 30px;
 }
@@ -1025,7 +1026,7 @@ ul.social-slide li i.mac {
 
 .welcome h3 {
   color: #333333;
-  margin: 3em 0px .3em;
+  margin: 3em 0px 0.3em;
   text-align: center;
   font-size: 30px;
 }
@@ -1197,7 +1198,7 @@ ul.social-slide li i.mac {
 
 .our-work h3 {
   color: #333333;
-  margin: 3em 0px .3em;
+  margin: 3em 0px 0.3em;
   text-align: center;
   font-size: 30px;
 }
@@ -1551,10 +1552,10 @@ ul.b-animate.b-from-left.b-delay03 li span.link {
   height: 219px;
   background: url(../images/zoom.png) center center no-repeat;
   cursor: pointer;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
 }
 
 .grid_box .zoom-icon {
@@ -1583,7 +1584,7 @@ ul.b-animate.b-from-left.b-delay03 li span.link {
 
 .pricing-table h3 {
   color: #333333;
-  margin: 3em 0px .3em;
+  margin: 3em 0px 0.3em;
   text-align: center;
   font-size: 30px;
 }
@@ -1764,7 +1765,7 @@ ul.b-animate.b-from-left.b-delay03 li span.link {
 
 .contact-us h3 {
   color: #333333;
-  margin: 3em 0px .3em;
+  margin: 3em 0px 0.3em;
   text-align: center;
   font-size: 30px;
 }
@@ -1989,7 +1990,7 @@ input[type="text"].in {
   display: inline-block;
 }
 
-.footer-right ul li a.facebook {
+.footer-right ul li a.qq {
   background-image: url("../images/qq.png");
   background-repeat: no-repeat;
   background-size: 25px 25px;
@@ -1999,7 +2000,7 @@ input[type="text"].in {
   transition: .5s all;
 }
 
-.footer-right ul li a.twitter {
+.footer-right ul li a.wechat {
   background-image: url("../images/weixin.png");
   background-repeat: no-repeat;
   background-size: 25px 25px;
@@ -2009,7 +2010,7 @@ input[type="text"].in {
   transition: .5s all;
 }
 
-.footer-right ul li a.in {
+.footer-right ul li a.sina {
   background-image: url("../images/weibo.png");
   background-repeat: no-repeat;
   background-size: 25px 25px;
@@ -2019,7 +2020,7 @@ input[type="text"].in {
   transition: .5s all;
 }
 
-.footer-right ul li a.p {
+.footer-right ul li a.qqweibo {
   background-image: url("../images/weibo1.png");
   background-repeat: no-repeat;
   background-size: 25px 25px;
@@ -2029,8 +2030,8 @@ input[type="text"].in {
   transition: .5s all;
 }
 
-.footer-right ul li a.google {
-  background-image: url("../images/renren.png");
+.footer-right ul li a.share {
+  background-image: url("../images/hover-2.png");
   background-repeat: no-repeat;
   background-size: 25px 25px;
   width: 35px;
@@ -2319,7 +2320,7 @@ input[type="text"].in {
   }
   .banner-bottom h3 {
     background: url(../images/e.png) no-repeat 7em 0px;
-    margin: 0em 0px .5em;
+    margin: 0em 0px 0.5em;
   }
   .banner-bottom p {
     font-size: 18px;
@@ -2370,7 +2371,7 @@ input[type="text"].in {
     margin-bottom: 3em;
   }
   .want-to-know h3 {
-    margin: 0em 0px .3em;
+    margin: 0em 0px 0.3em;
     font-size: 28px;
   }
   .want-to-know label {
@@ -2385,7 +2386,7 @@ input[type="text"].in {
     margin-top: 15%;
   }
   .our-work h3 {
-    margin: 1em 0px .3em;
+    margin: 1em 0px 0.3em;
   }
   .professional-left {
     float: none;
@@ -2441,7 +2442,7 @@ input[type="text"].in {
     margin: 0 auto;
   }
   .great-team h3 {
-    margin: 2em 0px .3em;
+    margin: 2em 0px 0.3em;
     font-size: 28px;
   }
   .great-team {
@@ -2451,7 +2452,7 @@ input[type="text"].in {
     padding: 4em 0px;
   }
   .contact-us h3 {
-    margin: 0em 0px .3em;
+    margin: 0em 0px 0.3em;
   }
   .maria {
     float: left;
@@ -2531,7 +2532,7 @@ input[type="text"].in {
   }
   .pricing-table h3 {
     font-size: 28px;
-    margin: 1em 0px .3em;
+    margin: 1em 0px 0.3em;
   }
   .basic1 {
     margin-left: 7em;
@@ -2559,7 +2560,7 @@ input[type="text"].in {
     height: 71px;
   }
   .paragraph p {
-    margin: 15px 0px 10px .5em;
+    margin: 15px 0px 10px 0.5em;
     font-size: 13px;
   }
   .paragraph label {
@@ -2961,7 +2962,7 @@ input[type="text"].in {
   }
   .what-we-do h3 {
     font-size: 22px;
-    margin: 2em 0px .3em;
+    margin: 2em 0px 0.3em;
   }
   .what-we-do label {
     background: url(../images/what.png) no-repeat -146px 0px;
@@ -2983,7 +2984,7 @@ input[type="text"].in {
   }
   .want-to-know h3 {
     font-size: 22px;
-    margin: 2em 0px .3em;
+    margin: 2em 0px 0.3em;
   }
   .want-to-know label {
     background: url(../images/what.png) no-repeat -146px 0px;
@@ -3023,7 +3024,7 @@ input[type="text"].in {
   }
   .great-team h3 {
     font-size: 22px;
-    margin: 2em 0px .3em;
+    margin: 2em 0px 0.3em;
   }
   .great-team label {
     background: url(../images/what.png) no-repeat -146px 0px;
@@ -3089,7 +3090,7 @@ input[type="text"].in {
   }
   .welcome h3 {
     font-size: 22px;
-    margin: 2em 0px .3em;
+    margin: 2em 0px 0.3em;
   }
   .welcome label {
     background: url(../images/what.png) no-repeat -146px 0px;
@@ -3131,7 +3132,7 @@ input[type="text"].in {
   }
   .our-work h3 {
     font-size: 22px;
-    margin: 2em 0px .3em;
+    margin: 2em 0px 0.3em;
   }
   .our-work p {
     font-size: 13px;
@@ -3153,7 +3154,7 @@ input[type="text"].in {
   }
   .pricing-table h3 {
     font-size: 22px;
-    margin: 2em 0px .3em;
+    margin: 2em 0px 0.3em;
   }
   .pricing-table label {
     background: url(../images/what.png) no-repeat -146px 0px;
@@ -3212,7 +3213,7 @@ input[type="text"].in {
   }
   .contact-us h3 {
     font-size: 22px;
-    margin: 2em 0px .3em;
+    margin: 2em 0px 0.3em;
   }
   .contact-us label {
     background: url(../images/what.png) no-repeat -146px 0px;
@@ -3383,7 +3384,7 @@ input[type="text"].in {
   }
   .want-to-know h3 {
     font-size: 20px;
-    margin: 1em 0px .3em;
+    margin: 1em 0px 0.3em;
   }
   .want-to-know p {
     margin: 0px;
@@ -3403,7 +3404,7 @@ input[type="text"].in {
     font-size: 16px;
   }
   .professional-right h4 {
-    margin: 1em 0px .5em;
+    margin: 1em 0px 0.5em;
   }
   .professional-grids-finger {
     border-left: none;
@@ -3473,7 +3474,7 @@ input[type="text"].in {
   }
   .great-team h3 {
     font-size: 20px;
-    margin: 1em 0px .3em;
+    margin: 1em 0px 0.3em;
   }
   .great-team p {
     margin: 0px;
@@ -3507,7 +3508,7 @@ input[type="text"].in {
   }
   .welcome h3 {
     font-size: 20px;
-    margin: 1em 0px .3em;
+    margin: 1em 0px 0.3em;
   }
   .welcome p {
     margin: 0px;
@@ -3543,7 +3544,7 @@ input[type="text"].in {
   }
   .our-work h3 {
     font-size: 20px;
-    margin: 1em 0px .3em;
+    margin: 1em 0px 0.3em;
   }
   .our-work p {
     margin: 0px;
@@ -3578,7 +3579,7 @@ input[type="text"].in {
   }
   .pricing-table h3 {
     font-size: 20px;
-    margin: 1em 0px .3em;
+    margin: 1em 0px 0.3em;
   }
   .pricing-table p {
     margin: 0px;
@@ -3626,7 +3627,7 @@ input[type="text"].in {
   }
   .contact-us h3 {
     font-size: 20px;
-    margin: 1em 0px .3em;
+    margin: 1em 0px 0.3em;
   }
   .contact-us p {
     margin: 0px;
@@ -3663,4 +3664,27 @@ input[type="text"].in {
   }
 }
 
-/*# sourceMappingURL=map/index.css.map */
+.professional-right .skills {
+  position: relative;
+}
+
+.professional-right .skill1 {
+  -moz-transition: width 0.2s linear;
+  -o-transition: width 0.2s linear;
+  -webkit-transition: width 0.2s linear;
+  transition: width 0.2s linear;
+}
+
+.professional-right .skill1.animate {
+  width: 100%;
+}
+
+.professional-right .space-block {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #999;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -733,6 +733,7 @@ ul.social-slide li i.mac{
 	margin:0px;
 	}
 .skill1 {
+    width:0;
 	height: 100%;
 	display: block;
 	background-color: #FFCA26;
@@ -1722,36 +1723,36 @@ input[type="text"].in {
 .footer-right ul li{
 	display:inline-block;
 	}
-.footer-right ul li a.facebook{
+.footer-right ul li a.qq{
 	@include back('qq',25px,25px);
 	width:35px;
 	height:35px;
 	display:block;
 	transition:.5s all;
 	}
-.footer-right ul li a.twitter{
+.footer-right ul li a.wechat{
 	@include back('weixin',25px,25px);
 	width:35px;
 	height:35px;
 	display:block;
 	transition:.5s all;
 	}
-.footer-right ul li a.in{
+.footer-right ul li a.sina{
 	@include back('weibo',25px,25px);
 	width:35px;
 	height:35px;
 	display:block;
 	transition:.5s all;
 	}
-.footer-right ul li a.p{
+.footer-right ul li a.qqweibo{
 	@include back('weibo1',25px,25px);
 	width:35px;
 	height:35px;
 	display:block;
 	transition:.5s all;
 	}
-.footer-right ul li a.google{
-  @include back('renren',25px,25px);
+.footer-right ul li a.share{
+  @include back('hover-2',25px,25px);
 	width:35px;
 	height:35px;
 	display:block;
@@ -3377,4 +3378,26 @@ h5.b-animate.b-from-left.b-delay03 {
 		margin: 10px 0 10px 0.5em;
 		}
 }
+}
+
+.professional-right {
+    .skills{
+        position:relative;
+    }
+    .skill1 {
+        -moz-transition: width .2s linear;
+        -o-transition: width .2s linear;
+        -webkit-transition: width .2s linear;
+        transition: width .2s linear;
+        &.animate{
+            width:100%;
+        }
+    }
+    .space-block{
+        height:100%;
+        position:absolute;
+        top:0;
+        right:0;
+        background:#999;
+    }
 }
