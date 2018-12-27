@@ -444,8 +444,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				</div>
 				<div class="footer-right">
 					<ul>
-						<li><a href="javascript:;" title="qq" class="qq"></a></li>
-						<li><a href="javascript:;" title="wechat" class="wechat"></a></li>
+						<li><a href="./images/myqq.png" title="qq" class="qq"></a></li>
+						<li><a href="./images/mywechat.png" title="wechat" class="wechat"></a></li>
 						<li><a href="https://weibo.com/WEBguoxh" title="sina" class="sina"></a></li>
 						<li><a href="javascript:;" title="qqweibo" class="qqweibo"></a></li>
 						<li id="weChat"><a href="javascript:;" class="share"></a></li>
@@ -456,12 +456,24 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 		<!-- //footer -->
 		<!-- here stars scrolling icon -->
+        <!--微信分享-->
+        <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+        <script src="./js/wechatShare.js"></script>
 		<script type="text/javascript">
+            var shareParam = {};
+            var appid = 'wx335a3d7d1a651fec';
+            shareParam.shareTitle = '郭雪辉-前端';
+            shareParam.descContent = '个人站点';
+            shareParam.lineLink = window.location.href;
+            shareParam.imgUrl = './images/favicon.png';
+            shareParam.friendTitle = '郭雪辉-前端';
+            window.WeixinShareMobile.weixinShare(shareParam);
+
 			$(document).ready(function () {
 			    $().UItoTop({ easingType: 'easeOutQuart' });
                 //微信分享
-			    $("#weChat").onclick(function () {
-
+			    $("#weChat").click(function () {
+                    alert("点击右上角分享")
 			    })
 			});
 		</script>
