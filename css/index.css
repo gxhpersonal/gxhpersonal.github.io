@@ -3692,4 +3692,27 @@ input[type="text"].in {
   text-decoration: none;
 }
 
+.second-tit {
+  -webkit-mask-image: linear-gradient(to right, red, orange, yellow, green, cyan, blue, purple);
+  background-image: linear-gradient(to right, #FFCC33, #333, #333, #333, #FFCC33, #333, #333, #333, #FFCC33, #333, #FFCC33, #333);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  -moz-animation: bgp 5s infinite linear;
+  -o-animation: bgp 5s infinite linear;
+  -webkit-animation: bgp 5s infinite linear;
+  animation: bgp 5s infinite linear;
+}
+
+@-webkit-keyframes bgp {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
