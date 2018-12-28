@@ -3401,3 +3401,9 @@ h5.b-animate.b-from-left.b-delay03 {
         background:#999;
     }
 }
+.fe-text{
+    &:focus{
+        color:#fff;
+        text-decoration:none;
+    }
+}

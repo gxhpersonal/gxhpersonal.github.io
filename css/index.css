@@ -3687,4 +3687,9 @@ input[type="text"].in {
   background: #999;
 }
 
+.fe-text:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=index.css.map */
