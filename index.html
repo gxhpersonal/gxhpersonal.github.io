@@ -71,7 +71,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			<div class="banner-info">
 				<h1>欢迎来到我的个人站</h1>
 				<p>我是郭雪辉</p>
-				<a href="#">一名前端工程师</a>
+				<a href="#" class="fe-text">一名前端工程师</a>
 			</div>
 		</div>
 	</div>
@@ -88,7 +88,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div id="about" class="what-we-do">
 		<div class="container">
 			<h3>关于<span>我</span></h3>
-			<p>让别人了解你，也让自己更加了解自己</p>
+			<p class="second-tit">让别人了解你，也让自己更加了解自己</p>
 			<label> </label>
 			<div class="jianjie">
 				<ul>
@@ -134,7 +134,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div id="products" class="want-to-know">
 		<div class="container">
 			<h3>专业<span>技能</span></h3>
-			<p>年轻人最重要的，是能把自己的技能，推到自己能够达到的巅峰</p>
+            <p class="second-tit">年轻人最重要的，是能把自己的技能，推到自己能够达到的巅峰</p>
 			<label> </label>
 		</div>
 	</div>
@@ -200,266 +200,271 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div class="our-work">
 		<div class="container">
 			<h3>作品<span>展示</span></h3>
-			<p>这是对自己的激励与肯定</p>
+            <p class="second-tit">这是对自己的激励与肯定</p>
 			<label> </label>
 		</div>
 	</div>
-	<div class="gallery">
-		<ul id="filters" class="clearfix">
-			<li><span class="filter active" data-filter="app card icon logo web">全部</span></li>
-			<li><span class="filter" data-filter="app">游戏</span></li>
-			<li><span class="filter" data-filter="card">增删改查</span></li>
-			<li><span class="filter" data-filter="icon">网站页面</span></li>
-			<li><span class="filter" data-filter="web">个人博客</span></li>
+    <ul id="filters" class="clearfix">
+        <li><span class="filter active" data-filter="app card icon logo web">全部</span></li>
+        <li><span class="filter" data-filter="app">游戏</span></li>
+        <li><span class="filter" data-filter="card">增删改查</span></li>
+        <li><span class="filter" data-filter="icon">网站页面</span></li>
+        <li><span class="filter" data-filter="web">个人博客</span></li>
 
-		</ul>
-		<div id="portfoliolist">
+    </ul>
+    <div id="portfoliolist">
+        <!--音乐播放器-->
+        <div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app web" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="/music-item" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/yinyue.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">音乐播放器</h5>
+                        <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--canvas钟表-->
+        <div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app web" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="/clock" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/clock.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">canvas钟表</h5>
+                        <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--个人博客-->
+        <div class="portfolio web mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="/blog" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/blog.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">个人博客</h5>
+                        <p class="b-animate b-from-left     b-delay03 ">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--惠租车H5首页-->
+        <div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="https://m.huizuche.com" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/huizuche.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">惠租车H5首页</h5>
+                        <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--打字游戏-->
+        <div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app web" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="/type-game" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/dazi.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">打字游戏</h5>
+                        <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--五子棋游戏-->
+        <div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="/wuziqi" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/wuziqi1.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">五子棋游戏</h5>
+                        <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--todos备忘录-->
+        <div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="/todos" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/todos.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">todos备忘录</h5>
+                        <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--iCloud提醒事项-->
+        <div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="/icloud" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/icloud.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">iCloud提醒事项</h5>
+                        <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
 
-			<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app web" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="/music-item" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/yinyue.png" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">音乐播放器</h5>
-							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--驾照全球通-->
+        <div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="https://m.huizuche.com/Help/licenceWorld" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/IDL.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">驾照全球通</h5>
+                        <p class="b-animate b-from-left b-delay03" id="para">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--百度未来商店首页-->
+        <div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="/future-shop" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/baidu.jpg" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">百度未来商店首页</h5>
+                        <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--网易邮箱-->
+        <div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="/wangyi" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/wangyi.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left    b-delay03 ">网易邮箱6.0</h5>
+                        <p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--惠租车助力活动-->
+        <div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+            <div class="portfolio-wrapper">
+                <a href="https://a.huizuche.com/CouponFission/Master" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+                    <img src="images/fission.png" class="img-responsive" />
+                    <div class="b-wrapper">
+                        <h5 class="b-animate b-from-left b-delay03 ">助力活动</h5>
+                        <p class="b-animate b-from-left b-delay03 ">点击进入</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
 
-			<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app web" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="/clock" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/clock.png" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">canvas钟表</h5>
-							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
+            });
+        });
+    </script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var filterList = {
+                init: function () {
+                    $('#portfoliolist').mixitup({
+                        targetSelector: '.portfolio',
+                        filterSelector: '.filter',
+                        effects: ['fade'],
+                        easing: 'snap',
+                        onMixEnd: filterList.hoverEffect()
+                    });
+                },
 
-			<div class="portfolio web mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="http://gxhpersonal.github.io/blog" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/blog1.png" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">个人博客</h5>
-							<p class="b-animate b-from-left     b-delay03 ">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="https://m.huizuche.com" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/huizuche.png" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">惠租车H5首页</h5>
-							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
+                hoverEffect: function () {
+                    $('#portfoliolist .portfolio').hover(
+                        function () {
+                            $(this).find('.label').stop().animate({ bottom: 0 }, 200, 'easeOutQuad');
+                            $(this).find('img').stop().animate({ top: -30 }, 500, 'easeOutQuad');
+                        },
+                        function () {
+                            $(this).find('.label').stop().animate({ bottom: -40 }, 200, 'easeInQuad');
+                            $(this).find('img').stop().animate({ top: 0 }, 300, 'easeOutQuad');
+                        }
+                    );
+                }
+            };
 
-			<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app web" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="/type-game" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/dazi.png" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">打字游戏</h5>
-							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
+            // Run the show!
+            filterList.init();
 
-			<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="/wuziqi" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/wuziqi1.png" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">五子棋游戏</h5>
-							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="/todos" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/todos.png" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">todos备忘录</h5>
-							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="/icloud" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/icloud.png" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">iCloud提醒事项</h5>
-							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
+            //技能进度条动效
+            window.onscroll = function () {
+                if ($(window).scrollTop() >= $("#products")[0].offsetTop) {
+                    $(".professional-right .skill1").addClass("animate")
+                }
+            }
 
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="https://m.huizuche.com/Help/licenceWorld" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/IDL.png" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">驾照全球通</h5>
-							<p class="b-animate b-from-left b-delay03" id="para">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="/future-shop" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/baidu.jpg" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">百度未来商店首页</h5>
-							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="/wangyi" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/wangyi.png" class="img-responsive" />
-						<div class="b-wrapper">
-							<h5 class="b-animate b-from-left    b-delay03 ">网易邮箱6.0</h5>
-							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
-				<div class="portfolio-wrapper">
-					<a href="/H5-shop" target="_blank" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						<img src="images/suning.jpg" class="img-responsive" />
-						<div class="b-wrapper">
-							<!-- <ul class="b-animate b-from-left    b-delay03 ">
-										<li><span class="link"> </span></li>
-									</ul> -->
-							<h5 class="b-animate b-from-left    b-delay03 ">苏宁易购移动端首页</h5>
-							<p class="b-animate b-from-left    b-delay03 ">点击进入</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="clearfix"></div>
+        });
+    </script>
+    <!-- Gallery Script Ends -->
 
-		<script type="text/javascript">
-			jQuery(document).ready(function ($) {
-				$(".scroll").click(function (event) {
-					event.preventDefault();
-					$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
-				});
-			});
-		</script>
-		<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-		<script type="text/javascript">
-			$(function () {
-				var filterList = {
-					init: function () {
-						$('#portfoliolist').mixitup({
-							targetSelector: '.portfolio',
-							filterSelector: '.filter',
-							effects: ['fade'],
-							easing: 'snap',
-							onMixEnd: filterList.hoverEffect()
-						});
-					},
-
-					hoverEffect: function () {
-						$('#portfoliolist .portfolio').hover(
-							function () {
-								$(this).find('.label').stop().animate({ bottom: 0 }, 200, 'easeOutQuad');
-								$(this).find('img').stop().animate({ top: -30 }, 500, 'easeOutQuad');
-							},
-							function () {
-								$(this).find('.label').stop().animate({ bottom: -40 }, 200, 'easeInQuad');
-								$(this).find('img').stop().animate({ top: 0 }, 300, 'easeOutQuad');
-							}
-						);
-					}
-				};
-
-				// Run the show!
-				filterList.init();
-
-				//技能进度条动效
-				window.onscroll = function () {
-				    if ($(window).scrollTop() >= $("#products")[0].offsetTop) {
-					    $(".professional-right .skill1").addClass("animate")
-					}
-				}
-
-			});
-		</script>
-		<!-- Gallery Script Ends -->
-
-		<div id="contact" class="contact-us">
-			<div class="container">
-				<h3>联系<span>我</span></h3>
-				<p>相信我会给您一个惊喜</p>
-				<label> </label>
-			</div>
-		</div>
-		<div class="map-bottom">
-			<div class="container">
-				<div class="dot-msg-phone">
-					<div class="dot">
-						<label> </label>
-						<h5>guo18435133760</h5>
-					</div>
-					<div class="msg">
-						<label> </label>
-						<h5>991158744@qq.com</h5>
-					</div>
-					<div class="phone">
-						<label> </label>
-						<h5>18435133760</h5>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
-		<!-- //contact-us -->
-		<!-- footer -->
-		<div class="footer">
-			<div class="container">
-				<div class="footer-left">
-					<p>欢迎您联系我</p>
-				</div>
-				<div class="footer-right">
-					<ul>
-						<li><a href="./images/myqq.png" title="qq" class="qq"></a></li>
-						<li><a href="./images/mywechat.png" title="wechat" class="wechat"></a></li>
-						<li><a href="https://weibo.com/WEBguoxh" title="sina" class="sina"></a></li>
-						<li><a href="javascript:;" title="qqweibo" class="qqweibo"></a></li>
-						<li id="weChat"><a href="javascript:;" class="share"></a></li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-		<!-- //footer -->
-		<!-- here stars scrolling icon -->
-        <!--微信分享-->
-        <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-        <script src="./js/wechatShare.js"></script>
-		<script type="text/javascript">
+    <div id="contact" class="contact-us">
+        <div class="container">
+            <h3>联系<span>我</span></h3>
+            <p class="second-tit">相信我会给您一个惊喜</p>
+            <label> </label>
+        </div>
+    </div>
+    <div class="map-bottom">
+        <div class="container">
+            <div class="dot-msg-phone">
+                <div class="dot">
+                    <label> </label>
+                    <h5>guo18435133760</h5>
+                </div>
+                <div class="msg">
+                    <label> </label>
+                    <h5>991158744@qq.com</h5>
+                </div>
+                <div class="phone">
+                    <label> </label>
+                    <h5>18435133760</h5>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- //contact-us -->
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <p>欢迎您联系我</p>
+            </div>
+            <div class="footer-right">
+                <ul>
+                    <li><a href="./images/myqq.png" target="_blank" title="qq" class="qq"></a></li>
+                    <li><a href="./images/mywechat.png" target="_blank" title="wechat" class="wechat"></a></li>
+                    <li><a href="https://weibo.com/WEBguoxh" target="_blank" title="sina" class="sina"></a></li>
+                    <li><a href="javascript:;" target="_blank" title="qqweibo" class="qqweibo"></a></li>
+                    <li id="weChat" style="display: none"><a href="javascript:;" class="share"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!-- //footer -->
+    <!-- here stars scrolling icon -->
+    <!--微信分享-->
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="./js/wechatShare.js"></script>
+    <script type="text/javascript">
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.match(/MicroMessenger/i) == "micromessenger") {
             var shareParam = {};
             var appid = 'wx335a3d7d1a651fec';
             shareParam.shareTitle = '郭雪辉-前端';
@@ -468,16 +473,16 @@ function hideURLbar(){ window.scrollTo(0,1); }
             shareParam.imgUrl = './images/favicon.png';
             shareParam.friendTitle = '郭雪辉-前端';
             window.WeixinShareMobile.weixinShare(shareParam);
+            $().UItoTop({ easingType: 'easeOutQuart' });
+            $("#weChat").show();
+            //微信分享
+            $("#weChat").click(function () {
+                alert("点击右上角分享")
+            })
+        }
 
-			$(document).ready(function () {
-			    $().UItoTop({ easingType: 'easeOutQuart' });
-                //微信分享
-			    $("#weChat").click(function () {
-                    alert("点击右上角分享")
-			    })
-			});
-		</script>
-		<!-- //here ends scrolling icon -->
+    </script>
+    <!-- //here ends scrolling icon -->	
 
 </body>
 
