@@ -447,11 +447,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
             </div>
             <div class="footer-right">
                 <ul>
-                    <li><a href="./images/myqq.png" title="qq" class="qq"></a></li>
-                    <li><a href="./images/mywechat.png" title="wechat" class="wechat"></a></li>
-                    <li><a href="https://weibo.com/WEBguoxh" title="sina" class="sina"></a></li>
-                    <li><a href="javascript:;" title="qqweibo" class="qqweibo"></a></li>
-                    <li id="weChat"><a href="javascript:;" class="share"></a></li>
+                    <li><a href="./images/myqq.png" target="_blank" title="qq" class="qq"></a></li>
+                    <li><a href="./images/mywechat.png" target="_blank" title="wechat" class="wechat"></a></li>
+                    <li><a href="https://weibo.com/WEBguoxh" target="_blank" title="sina" class="sina"></a></li>
+                    <li><a href="javascript:;" target="_blank" title="qqweibo" class="qqweibo"></a></li>
+                    <li id="weChat" style="display: none"><a href="javascript:;" class="share"></a></li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
@@ -463,22 +463,24 @@ function hideURLbar(){ window.scrollTo(0,1); }
     <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
     <script src="./js/wechatShare.js"></script>
     <script type="text/javascript">
-        var shareParam = {};
-        var appid = 'wx335a3d7d1a651fec';
-        shareParam.shareTitle = '郭雪辉-前端';
-        shareParam.descContent = '个人站点';
-        shareParam.lineLink = window.location.href;
-        shareParam.imgUrl = './images/favicon.png';
-        shareParam.friendTitle = '郭雪辉-前端';
-        window.WeixinShareMobile.weixinShare(shareParam);
-
-        $(document).ready(function () {
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            var shareParam = {};
+            var appid = 'wx335a3d7d1a651fec';
+            shareParam.shareTitle = '郭雪辉-前端';
+            shareParam.descContent = '个人站点';
+            shareParam.lineLink = window.location.href;
+            shareParam.imgUrl = './images/favicon.png';
+            shareParam.friendTitle = '郭雪辉-前端';
+            window.WeixinShareMobile.weixinShare(shareParam);
             $().UItoTop({ easingType: 'easeOutQuart' });
+            $("#weChat").show();
             //微信分享
             $("#weChat").click(function () {
                 alert("点击右上角分享")
             })
-        });
+        }
+
     </script>
     <!-- //here ends scrolling icon -->	
 
