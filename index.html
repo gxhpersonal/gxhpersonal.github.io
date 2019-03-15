@@ -458,12 +458,28 @@ function hideURLbar(){ window.scrollTo(0,1); }
             <div class="clearfix"> </div>
         </div>
     </div>
+
+    <div id="toTop"></div>
     <!-- //footer -->
     <!-- here stars scrolling icon -->
     <!--微信分享-->
     <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
     <script src="./js/wechatShare.js"></script>
     <script type="text/javascript">
+    $(function(){
+        window.onscroll = function () {
+            if ($(window).scrollTop() >= 1500) {
+                $("#toTop").show()
+            }else{
+                $("#toTop").hide()
+            }
+        }
+        $("#toTop").click(function(){
+            $('html,body').animate({ scrollTop: 0 });
+        })
+    })
+        
+
         var ua = navigator.userAgent.toLowerCase();
         if (ua.match(/MicroMessenger/i) == "micromessenger") {
             var shareParam = {};
