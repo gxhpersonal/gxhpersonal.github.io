@@ -507,7 +507,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
             var appid = 'wx335a3d7d1a651fec';
             shareParam.shareTitle = '郭雪辉-前端';
             shareParam.descContent = '个人站点';
-            shareParam.lineLink = window.location.href;
+            shareParam.lineLink = window.location.href + "?canshu=123";
             shareParam.imgUrl = './images/favicon.png';
             shareParam.friendTitle = '郭雪辉-前端';
             window.WeixinShareMobile.weixinShare(shareParam);
