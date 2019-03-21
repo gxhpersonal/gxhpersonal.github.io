@@ -321,7 +321,7 @@ ul.social-slide li i.mac {
 
 .top-nav ul li a {
   text-decoration: none;
-  color: #636563;
+  color: #1B242F;
   font-size: 15px;
   font-weight: 600;
   transition: .5s all;
@@ -341,10 +341,34 @@ ul.social-slide li i.mac {
 /*-- //header --*/
 /*-- banner --*/
 .banner {
-  background: url(../images/banner.jpg) no-repeat 0px 0px fixed;
+  animation: bgswiper 60s linear infinite;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   width: 100%;
   min-height: 791px;
+background-color: #FFC932;
+}
+@keyframes bgswiper{
+  0%{
+    background-image: url(../images/bg1.jpg);
+  }
+  20%{
+    background-image: url(../images/bg2.jpg);
+  }
+  40%{
+    background-image: url(../images/bg3.jpg);
+  }
+  60%{
+    background-image: url(../images/bg4.jpg);
+  }
+  80%{
+    background-image: url(../images/bg5.jpg);
+  }
+  100%{
+    background-image: url(../images/bg1.jpg);
+  }
 }
 
 .banner-info {
