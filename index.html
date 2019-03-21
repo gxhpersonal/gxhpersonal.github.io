@@ -480,8 +480,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
     <!-- //footer -->
     <!-- here stars scrolling icon -->
     <!--微信分享-->
-    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-    <script src="./js/wechatShare.js"></script>
     <script type="text/javascript">
         $(function () {
             window.onscroll = function () {
@@ -499,25 +497,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
                 $('html,body').animate({ scrollTop: 0 });
             })
         })
-
-
-        var ua = navigator.userAgent.toLowerCase();
-        if (ua.match(/MicroMessenger/i) == "micromessenger") {
-            var shareParam = {};
-            var appid = 'wx335a3d7d1a651fec';
-            shareParam.shareTitle = '郭雪辉-前端';
-            shareParam.descContent = '个人站点';
-            shareParam.lineLink = window.location.href + "?canshu=123";
-            shareParam.imgUrl = './images/favicon.png';
-            shareParam.friendTitle = '郭雪辉-前端';
-            window.WeixinShareMobile.weixinShare(shareParam);
-            $().UItoTop({ easingType: 'easeOutQuart' });
-            $("#weChat").show();
-            //微信分享
-            $("#weChat").click(function () {
-                alert("点击右上角分享")
-            })
-        }
 
     </script>
     <!-- //here ends scrolling icon -->
