@@ -92,7 +92,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
                         <h4>姓名：郭雪辉</h4>
                     </li>
                     <li>
-                        <h4>年龄：24</h4>
+                        <h4 id="age"></h4>
+                        <script>
+                            $("#age").html('年龄：' + (new Date().getFullYear()-1994))
+                        </script>
                     </li>
                     <li>
                         <h4>职业：前端工程师</h4>
