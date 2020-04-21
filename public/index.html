@@ -12,7 +12,8 @@
   <script src="%PUBLIC_URL%/js/jquery.min.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src *;img-src 'self' data: base64; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"/>
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src *;img-src 'self' data: base64; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="keywords" content="Costamar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
@@ -50,7 +51,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
       });
     });
   </script>
-  
+
   <script type="text/javascript">
     $(function () {
       var filterList = {
@@ -81,6 +82,20 @@ function hideURLbar(){ window.scrollTo(0,1); }
       // Run the show!
       filterList.init();
 
+      window.onscroll = function () {
+        if ($(window).scrollTop() >= 1500) {
+          $("#toTop").show()
+        } else {
+          $("#toTop").hide()
+        }
+        //技能进度条动效
+        if ($(window).scrollTop() >= $("#products")[0].offsetTop) {
+          $(".professional-right .skill1").addClass("animate")
+        }
+      }
+      $("#toTop").click(function () {
+        $('html,body').animate({ scrollTop: 0 });
+      })
     });
   </script>
 </body>
