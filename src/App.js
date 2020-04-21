@@ -1,6 +1,4 @@
 import React from 'react';
-import './css/bootstrap.css';
-import './css/index.scss';
 
 function App() {
   return (
