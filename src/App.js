@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import {Helmet} from "react-helmet";
+
 class App extends Component {
-  render(){
+  render() {
     return (
       <div className="App">
-  
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>郭雪辉-前端-个人站</title>
+          <meta name="keywords" content="郭雪辉-前端-个人站" />
+          <meta name="description" content="郭雪辉-前端-个人站" />
+        </Helmet>
         <div className="header-bg">
           <div className="container">
             <div className="head-logo">
@@ -33,11 +40,11 @@ class App extends Component {
             </div>
           </div>
         </div>
-  
-  
+
+
         <div id="about" className="what-we-do">
           <div className="container">
-  
+
             <h3>关于<span>我</span></h3>
             <p className="second-tit">让别人了解你，也让自己更加了解自己</p>
             <label> </label>
@@ -64,7 +71,7 @@ class App extends Component {
               </ul>
             </div>
             <div className="what-we-do-articles">
-  
+
               <h4 className="personaljj">自我评价：<br /><br />1. 熟练使用html5和css3，对H5标签有所研究，对css3属性也有开发经验； <br />
                 2. 熟练使用JS/jQuery/css3给网页添加效果； <br />
                   3. 有丰富的与原生App交互的经验； <br />
@@ -79,11 +86,11 @@ class App extends Component {
                                     12. 对项目开发流程有清晰的思路，可以高效的和后台伙伴对接接口联调，有较强的沟通协调能力，代码整洁，可读性及复用性做的较好。<br />
               </h4>
             </div>
-  
+
           </div>
         </div>
-  
-  
+
+
         <div id="products" className="want-to-know">
           <div className="container">
             <h3>专业<span>技能</span></h3>
@@ -91,7 +98,7 @@ class App extends Component {
             <label> </label>
           </div>
         </div>
-  
+
         <div className="professional">
           <div className="container">
             <div className="professional-left">
@@ -145,9 +152,9 @@ class App extends Component {
             <div className="clearfix"></div>
           </div>
         </div>
-  
+
         {/* 作品展示  */}
-  
+
         <div className="our-work" id="pricing">
           <div className="container">
             <h3>作品<span>展示</span></h3>
@@ -271,7 +278,7 @@ class App extends Component {
                 <div className="b-wrapper">
                   <h5 className="b-animate b-from-left    b-delay03 ">iCloud提醒事项</h5>
                   <p className="b-animate b-from-left    b-delay03 ">点击进入</p>
-  
+
                 </div>
               </a>
             </div>
@@ -335,7 +342,7 @@ class App extends Component {
           <div className="clearfix"></div>
         </div>
         <div className="clearfix"></div>
-  
+
         <div id="contact" className="contact-us">
           <div className="container">
             <h3>联系<span>我</span></h3>
@@ -362,7 +369,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-  
+
         <div className="footer">
           <div className="container">
             <div className="footer-left">
@@ -380,9 +387,9 @@ class App extends Component {
             <div className="clearfix"> </div>
           </div>
         </div>
-  
+
         <div id="toTop"></div>
-  
+
       </div>
     );
   }

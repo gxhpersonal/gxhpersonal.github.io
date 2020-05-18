@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "prerender-spa-plugin": "^3.4.0",
-    "react-app-rewired": "^2.1.6"
+    "react-app-rewired": "^2.1.6",
+    "react-helmet": "^6.0.0"
   }
 }
