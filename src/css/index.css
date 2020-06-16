@@ -378,7 +378,7 @@ ul.social-slide li i.mac {
   background-size: cover;
   width: 100%;
   min-height: 791px;
-  background-color: #FFC932;
+  background-color: #ffc932;
 }
 
 @keyframes bgswiper {
@@ -673,6 +673,13 @@ ul.social-slide li i.mac {
   padding-bottom: 6em;
 }
 
+.skill-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .professional-left {
   width: 45%;
   float: left;
@@ -741,7 +748,7 @@ ul.social-slide li i.mac {
   display: block;
 }
 
-.professional-left h3 {
+.professional-left ul h3 {
   color: #333333;
   margin: 0px;
   text-align: right;
@@ -752,17 +759,17 @@ ul.social-slide li i.mac {
   margin: 2em 0px;
 }
 
-.fig img {
-  width: 100%;
-}
-
-.professional-left h3 label {
+.professional-left ul h3 label {
   font-weight: 700;
   font-size: 32px;
 }
 
-.professional-left h3 span {
+.professional-left ul h3 span {
   display: block;
+}
+
+.fig img {
+  width: 100%;
 }
 
 .professional-right {
@@ -2158,6 +2165,18 @@ input[type="text"].in {
   .professional-left {
     padding-left: 6em;
   }
+  .professional-left ul {
+    top: 79.3%;
+    left: 32%;
+  }
+  .professional-left h3 {
+    left: 12%;
+    font-size: 26px;
+    margin: 2em 0px;
+  }
+  .professional-left h3 label {
+    font-size: 29px;
+  }
   .contact input[type="text"] {
     width: 32%;
   }
@@ -2192,20 +2211,8 @@ input[type="text"].in {
   .want-to-know label {
     background: url(../images/what.png) no-repeat 0px 0px;
   }
-  .professional-left ul {
-    top: 79.3%;
-    left: 32%;
-  }
-  .professional-left h3 {
-    left: 12%;
-    font-size: 26px;
-    margin: 2em 0px;
-  }
   .professional {
     padding-bottom: 1em;
-  }
-  .professional-left h3 label {
-    font-size: 29px;
   }
   .professional-right {
     padding-bottom: 3em;
@@ -2448,12 +2455,6 @@ input[type="text"].in {
     float: none;
     width: 100%;
   }
-  .professional-right {
-    float: none;
-    width: 70%;
-    margin-top: 8em;
-    margin-left: 0px;
-  }
   .professional-left ul {
     top: 85%;
     left: 44%;
@@ -2461,6 +2462,12 @@ input[type="text"].in {
   .professional-left h3 {
     left: 46%;
     margin: 0px;
+  }
+  .professional-right {
+    float: none;
+    width: 70%;
+    margin-top: 8em;
+    margin-left: 0px;
   }
   .professional-right h4 {
     margin: 0em 0px 1em;

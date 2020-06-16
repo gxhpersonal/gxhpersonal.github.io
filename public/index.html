@@ -45,6 +45,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
         event.preventDefault();
         $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
       });
+      $("span.menu").click(function () {
+        $("ul.nav1").slideToggle(300, function () {
+          // Animation complete.
+        });
+      });
     });
   </script>
 

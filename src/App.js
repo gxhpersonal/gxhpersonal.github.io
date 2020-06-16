@@ -57,13 +57,13 @@ class App extends Component {
                   <h4>姓名：郭雪辉</h4>
                 </li>
                 <li>
-                  <h4 id="age">26</h4>
+                  <h4 id="age">年龄：{new Date().getFullYear() - 1994}</h4>
                 </li>
                 <li>
                   <h4>职业：前端工程师</h4>
                 </li>
                 <li>
-                  <h4>爱好：打篮球，学习前端新框架，工具，知识，看前端的论坛</h4>
+                  <h4>爱好：游泳，打篮球，学习前端新框架，工具，知识，看前端的论坛</h4>
                 </li>
                 <li>
                   <h4>荣誉：2016全国大学生计算机设计大赛山西赛区决赛二等奖</h4>
@@ -100,7 +100,7 @@ class App extends Component {
         </div>
 
         <div className="professional">
-          <div className="container">
+          <div className="container skill-container">
             <div className="professional-left">
               <img src={require("./images/desk.JPG")} alt="professional" />
             </div>
