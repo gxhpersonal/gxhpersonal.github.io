@@ -3707,7 +3707,9 @@ input[type="text"].in {
 
 .second-tit {
   -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(cyan), color-stop(blue), to(purple));
+  mask-image: -webkit-gradient(linear, left top, right top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(cyan), color-stop(blue), to(purple));
   -webkit-mask-image: linear-gradient(to right, red, orange, yellow, green, cyan, blue, purple);
+  mask-image: linear-gradient(to right, red, orange, yellow, green, cyan, blue, purple);
   background-image: -webkit-gradient(linear, left top, right top, from(#ffcc33), color-stop(#333), color-stop(#333), color-stop(#333), color-stop(#ffcc33), color-stop(#333), color-stop(#333), color-stop(#333), color-stop(#ffcc33), color-stop(#333), color-stop(#ffcc33), to(#333));
   background-image: linear-gradient(to right, #ffcc33, #333, #333, #333, #ffcc33, #333, #333, #333, #ffcc33, #333, #ffcc33, #333);
   -webkit-background-clip: text;
@@ -3715,11 +3717,20 @@ input[type="text"].in {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
-  -webkit-animation: bgp 5s infinite linear;
-  animation: bgp 5s infinite linear;
+  -webkit-animation: bgp 5s linear infinite alternate;
+  animation: bgp 5s linear infinite alternate;
 }
 
 @-webkit-keyframes bgp {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@keyframes bgp {
   0% {
     background-position: 0 0;
   }
