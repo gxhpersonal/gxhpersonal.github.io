@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 class App extends Component {
   render() {
@@ -71,22 +71,19 @@ class App extends Component {
               </ul>
             </div>
             <div className="what-we-do-articles">
-
-              <h4 className="personaljj">自我评价：<br /><br />1. 熟练使用html5和css3，对H5标签有所研究，对css3属性也有开发经验； <br />
-                2. 熟练使用JS/jQuery/css3给网页添加效果； <br />
-                  3. 有丰富的与原生App交互的经验； <br />
-                    4. 做过多个使用angular/vue结合异步的实现增删改查的项目，其中解决了前后台的交互问题；<br />
-                      5. 熟悉H5的开发中移动端屏幕的适配性，一些移动端特有的bug也比较清楚； <br />
-                        6. 有一年半的angular开发经验，一年半的vue开发经验，对vue-router和vuex也有项目中用到； <br />
-                          7. 在响应式(百分比)和移动端布局(rem)上也做过项目，工作中对H5和PC端都会开发项目，所以对移动端的适配和PC端的兼容性熟悉； <br />
-                            8. 对微信小程序有了解，并且开发过项目； <br />
-                              9. 对react有了解； <br />
-                                10. 熟练使用git进行分支管理和代码拉取提交等项目管理操作；<br />
-                                  11. 对C#语言有了解，熟悉Ajax和.net的交互；<br />
-                                    12. 对项目开发流程有清晰的思路，可以高效的和后台伙伴对接接口联调，有较强的沟通协调能力，代码整洁，可读性及复用性做的较好。<br />
+              <h4 className="personaljj">个人优势：<br /><br />
+                1. 熟练使用html5，css3，JS，ES和JS框架；<br />
+                2. 独立搭建并开发过多个使用vue/react框架结合axios异步框架实现的项目；<br />
+                3. 有一年半的angularJS开发经验，5年的vue开发经验，3年的react开发经验，3年的小程序开发经验；<br />
+                4. 有多个使用主流后台框架elementUI，antd搭建后台项目的经验；<br />
+                5. 熟悉移动端开发中屏幕的适配性、兼容性；<br />
+                6. 个人站用react框架开发，并实现了seo，对react、vue很感兴趣；<br />
+                7. 沟通协调能力好，有带领团队经验，对代码严格要求；<br />
+                8. 与原生App交互的经验丰富；<br />
+                9. 熟练使用git进行分支管理和代码拉取提交等项目管理操作；<br />
+                10. 对项目开发流程有清晰的思路，可以高效的和后台伙伴对接接口联调，有较强的沟通协调能力，代码整洁，可读性及复用性强。<br />
               </h4>
             </div>
-
           </div>
         </div>
 
@@ -111,28 +108,35 @@ class App extends Component {
               </div>
               <div className="skills">
                 <div className="skill1"></div>
-                <div className="space-block" style={{ width: '10%' }}></div>
+                <div className="space-block" style={{ width: '20%' }}></div>
               </div>
               <div className="bar">
-                <p>Javascript</p>
+                <p>JS/ES</p>
+              </div>
+              <div className="skills">
+                <div className="skill1"></div>
+                <div className="space-block" style={{ width: '20%' }}></div>
+              </div>
+              <div className="bar">
+                <p>小程序、小程序框架（taro）</p>
               </div>
               <div className="skills">
                 <div className="skill1"></div>
                 <div className="space-block" style={{ width: '10%' }}></div>
               </div>
               <div className="bar">
-                <p>jQuery及相关插件</p>
+                <p>vue、elementUI</p>
               </div>
               <div className="skills">
                 <div className="skill1"></div>
-                <div className="space-block" style={{ width: '10%' }}></div>
+                <div className="space-block" style={{ width: '30%' }}></div>
               </div>
               <div className="bar">
-                <p>响应式/移动端布局(rem，百分比)</p>
+                <p>react、antd</p>
               </div>
               <div className="skills">
                 <div className="skill1"></div>
-                <div className="space-block" style={{ width: '10%' }}></div>
+                <div className="space-block" style={{ width: '30%' }}></div>
               </div>
               <div className="bar">
                 <p>angularJs</p>
@@ -140,13 +144,6 @@ class App extends Component {
               <div className="skills">
                 <div className="skill1"></div>
                 <div className="space-block" style={{ width: '10%' }}></div>
-              </div>
-              <div className="bar">
-                <p>vue</p>
-              </div>
-              <div className="skills">
-                <div className="skill1"></div>
-                <div className="space-block" style={{ width: '30%' }}></div>
               </div>
             </div>
             <div className="clearfix"></div>
