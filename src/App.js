@@ -77,7 +77,7 @@ class App extends Component {
                 3. 有一年半的angularJS开发经验，5年的vue开发经验，3年的react开发经验，3年的小程序开发经验；<br />
                 4. 有多个使用主流后台框架elementUI，antd搭建后台项目的经验；<br />
                 5. 熟悉移动端开发中屏幕的适配性、兼容性；<br />
-                6. 个人站用react框架开发，并实现了seo，对react、vue很感兴趣；<br />
+                6. 个人站用react框架开发，并实现了seo优化，对react、vue很感兴趣；<br />
                 7. 沟通协调能力好，有带领团队经验，对代码严格要求；<br />
                 8. 与原生App交互的经验丰富；<br />
                 9. 熟练使用git进行分支管理和代码拉取提交等项目管理操作；<br />
