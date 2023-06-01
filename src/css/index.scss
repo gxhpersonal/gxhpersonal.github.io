@@ -1778,6 +1778,8 @@ input[type="text"].in {
 	float: right;
 }
 .footer-right ul {
+	display: flex;
+	justify-content: center;
 	padding: 0px;
 	margin: 0px;
 	margin-top: 1em;
@@ -3503,4 +3505,9 @@ input[type="text"].in {
 	100% {
 		background-position: -100% 0;
 	}
+}
+
+.scatterbtn{
+	color: #fff;
+    cursor: pointer;
 }

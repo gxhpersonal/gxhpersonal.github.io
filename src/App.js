@@ -1,7 +1,20 @@
 import React, { Component } from 'react';
 import { Helmet } from "react-helmet";
+const confetti = require('canvas-confetti');
 
 class App extends Component {
+  scatter = () => {
+    //文档 https://github.com/catdad/canvas-confetti/
+
+    var canvas = document.getElementById('my-canvas');
+    canvas.confetti = canvas.confetti || confetti.create(canvas, { resize: true });
+
+    canvas.confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 1 }
+    });
+  }
   render() {
     return (
       <div className="App">
@@ -378,6 +391,7 @@ class App extends Component {
                 <li><a href={require("./images/mywechat.png")} target="_blank" rel="noopener noreferrer" title="wechat" className="wechat"></a></li>
                 <li><a href="https://weibo.com/WEBguoxh" target="_blank" rel="noopener noreferrer" title="sina" className="sina"></a></li>
                 <li><div title="qqweibo" className="qqweibo"></div></li>
+                <li className='scatterbtn' onClick={this.scatter}>结束撒花</li>
                 {/* <li id="weChat" style={{display: 'none'}}><a href="javascript:;" rel="noopener noreferrer" className="share"></a></li> */}
               </ul>
             </div>
@@ -386,6 +400,8 @@ class App extends Component {
         </div>
 
         <div id="toTop"></div>
+
+        <canvas id='my-canvas' style={{ position: "fixed", top: 0, left: 0, pointerEvents: "none", zIndex: 100, width: "100vw", heigth: "100vh" }}></canvas>
 
       </div>
     );
