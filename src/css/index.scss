@@ -591,7 +591,7 @@ ul.social-slide li i.mac {
 	background: #f3f3f3;
 	padding-bottom: 6em;
 }
-.skill-container{
+.skill-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -3423,6 +3423,37 @@ input[type="text"].in {
 		text-decoration: none;
 	}
 }
+.welcome-text {
+	display: inline-block;
+	border-right: 0.1em solid;
+	width: 10em;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 2s steps(10, end), cursor-blink 0.5s step-end infinite alternate;
+}
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes cursor-blink {
+	50% {
+		border-color: transparent;
+	}
+}
+.welcome-text-ani {
+	mask: radial-gradient(circle at 50% 0, #000, transparent 20%, transparent 0);
+	mask-size: 100% 100%;
+	animation: scale2 5s infinite;
+}
+@keyframes scale2 {
+	50%,
+	100% {
+		mask-size: 100% 3000%;
+	}
+}
+
 .second-tit {
 	-webkit-mask-image: -webkit-gradient(
 		linear,
@@ -3507,7 +3538,7 @@ input[type="text"].in {
 	}
 }
 
-.scatterbtn{
+.scatterbtn {
 	color: #fff;
-    cursor: pointer;
+	cursor: pointer;
 }
