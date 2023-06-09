@@ -87,7 +87,7 @@ class App extends Component {
               <h4 className="personaljj">个人优势：<br /><br />
                 1. 熟练使用html5，css3，JS，ES和JS框架；<br />
                 2. 独立搭建并开发过多个使用vue/react框架结合axios异步框架实现的项目；<br />
-                3. 有一年半的angularJS开发经验，5年的vue开发经验，3年的react开发经验，3年的小程序开发经验；<br />
+                3. 有一年半的angularJS开发经验，{new Date().getFullYear() - 2017}年的vue开发经验，{new Date().getFullYear() - 2020}年的react开发经验，{new Date().getFullYear() - 2019}年的小程序开发经验；<br />
                 4. 有多个使用主流后台框架elementUI，antd搭建后台项目的经验；<br />
                 5. 熟悉移动端开发中屏幕的适配性、兼容性；<br />
                 6. 个人站用react框架开发，并实现了seo优化，对react、vue很感兴趣；<br />
