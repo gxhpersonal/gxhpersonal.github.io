@@ -48,7 +48,7 @@ class App extends Component {
           <div className="container">
             <div className="banner-info">
               <h1 className='welcome-text'>欢迎来到我的个人站</h1>
-              <p>我是郭雪辉</p>
+              <p className='name'>我是郭雪辉</p>
               <a href="#home" className="fe-text">一名前端工程师</a>
             </div>
           </div>
